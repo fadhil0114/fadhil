@@ -6,58 +6,58 @@
 
 ## 📌 Project Description
 
-**Stellar Notes DApp** adalah aplikasi pencatatan (note-taking) terdesentralisasi yang dibangun di atas blockchain Stellar menggunakan **Soroban Smart Contract SDK**.
+**Stellar Notes DApp** is a decentralized note-taking application built on the Stellar blockchain using the **Soroban Smart Contract SDK**.
 
-Aplikasi ini memungkinkan pengguna untuk membuat, melihat, dan menghapus catatan secara langsung di blockchain tanpa bergantung pada server terpusat. Semua data disimpan secara **immutable**, transparan, dan aman di dalam smart contract.
+This application allows users to create, view, and delete notes directly on the blockchain without relying on centralized servers. All data is stored in an **immutable**, transparent, and secure manner within the smart contract.
 
-Setiap catatan memiliki ID unik dan disimpan di dalam contract storage, sehingga menjamin konsistensi dan keandalan data.
+Each note is uniquely identified and stored in the contract’s instance storage, ensuring consistency, persistence, and reliability.
 
 ---
 
 ## 🎯 Project Vision
 
-Kami bertujuan untuk mengubah cara manusia menyimpan informasi digital dengan:
+Our vision is to transform how digital information is stored and managed by:
 
-- 🔗 **Desentralisasi Data**  
-  Menghilangkan ketergantungan pada server terpusat
+- 🔗 **Decentralizing Data**  
+  Eliminating dependence on centralized servers
 
-- 🔐 **Kepemilikan Penuh**  
-  Pengguna memiliki kontrol penuh atas data mereka
+- 🔐 **Full Ownership**  
+  Giving users complete control over their data
 
 - 🧱 **Immutability**  
-  Data tidak dapat diubah atau dimanipulasi pihak lain
+  Ensuring data cannot be altered or tampered with
 
-- 🛡️ **Keamanan Tinggi**  
-  Dilindungi oleh teknologi blockchain
+- 🛡️ **High Security**  
+  Leveraging blockchain technology for protection
 
 - 🤝 **Trustless System**  
-  Tidak perlu percaya pada pihak ketiga, cukup pada kode
+  Relying on code instead of third-party trust
 
 ---
 
 ## ⚙️ Key Features
 
 ### 📝 1. Create Note
-- Menambahkan catatan baru dengan title dan content
-- ID otomatis dibuat secara unik
-- Data langsung tersimpan di blockchain
+- Add new notes with title and content
+- Automatically generates a unique ID
+- Stored permanently on the blockchain
 
 ### 📂 2. Get Notes
-- Mengambil seluruh data catatan dalam satu fungsi
-- Format terstruktur untuk integrasi frontend
+- Retrieve all stored notes in a single call
+- Structured format for easy frontend integration
 
 ### ❌ 3. Delete Note
-- Menghapus catatan berdasarkan ID
-- Perubahan langsung tersimpan di blockchain
+- Remove notes using their unique ID
+- Changes are instantly reflected on-chain
 
 ### 🔍 4. Transparency & Security
-- Semua aktivitas tercatat di blockchain
-- Tidak bisa dimanipulasi oleh pihak luar
+- All activities are recorded on the blockchain
+- Cannot be modified by unauthorized parties
 
 ### ⚡ 5. Stellar Integration
-- Cepat dan biaya rendah
-- Menggunakan Soroban SDK
-- Skalabel dan efisien
+- Fast and low-cost transactions
+- Built using Soroban SDK
+- Scalable and efficient architecture
 
 ---
 
