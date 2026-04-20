@@ -68,3 +68,27 @@ Our vision is to transform how digital information is stored and managed by:
 - **SDK**: Soroban SDK
 
 **Contract Address:** CCHHJX762XO3RUYBH7KN4MQ6FUHPE6U5IQ7OQIESSSVVKVUFUYBH4GT4
+<img width="1870" height="985" alt="image" src="https://github.com/user-attachments/assets/61eb2cdf-99f4-4ee5-86d0-e771c6057cf6" />
+
+---
+
+## 🛠️ Available Functions
+
+| Function         | Description |
+|------------------|------------|
+| `create_note()`  | Create a new note |
+| `get_notes()`    | Retrieve all notes |
+| `delete_note()`  | Delete a note by ID |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+- Rust
+- Soroban CLI
+- Stellar Account
+
+### 2. Build Contract
+```bash
+cargo build --target wasm32-unknown-unknown --release
